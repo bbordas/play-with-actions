@@ -39,7 +39,6 @@ jobs:
       - name: Patch new version
         run: |
           npm version patch
-          npm run postversion
           
         env:
           CI: false
